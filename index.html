@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" crossorigin />
+  </head>
+  <div class="root">
+    <div id="menu"></div>
+    <div class="blur-menu"></div>
+    <div id="section">
+      <menu-header
+        style="display: flex; justify-content: flex-end"
+      ></menu-header>
+      <container-header-component></container-header-component>
+      <div class="layout-dashboard" style="width: max-content">
+        <div class="layout-dashboard-container">
+          <container-filters-component></container-filters-component>
+          <container-filters-agents></container-filters-agents>
+        </div>
+        <div>
+          <div class="container-grid-right">
+            <container-three-component
+              id="operations"
+            ></container-three-component>
+            <div class="container-components">
+              <div>
+                <container-graphics-component
+                  class="container-components"
+                ></container-graphics-component>
+                <container-graphics-list-component
+                  class="container-components"
+                ></container-graphics-list-component>
+              </div>
+              <div style="width: 100%">
+                <container-table-agents
+                  class="container-components"
+                ></container-table-agents>
+                <container-table-documents
+                  class="container-components"
+                ></container-table-documents>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <modal-component></modal-component>
+    <modal-gral></modal-gral>
+    <script src="./main.js" type="module"></script>
+  </div>
+</html>
