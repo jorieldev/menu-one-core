@@ -13,3 +13,7 @@ showHeaderSearch
 
 showHeaderMenu
 `DATA MENU LEFT`
+
+
+
+<img width="69" alt="Captura de pantalla 2024-01-29 a la(s) 22 23 45" src="https://github.com/jorieldev/menu-one-core/assets/56056150/24443b35-9db3-4ef2-92cf-0aeb2420f136">
