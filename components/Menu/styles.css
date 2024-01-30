@@ -62,7 +62,7 @@ div.divider-bottom {
 }
 
 .container-menu .top-avatar {
-  margin: 16px auto 102px 16px;
+  margin: 16px auto auto 16px;
   display: flex;
   text-align: center;
   text-align: -webkit-center;
